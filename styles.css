@@ -1,3 +1,79 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: Arial;
+  text-align: center;
+}
+
 li {
   list-style-type: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+}
+
+.social-logo {
+  width: 2rem;
+  height: 2rem;
+}
+
+.about-section {
+  color: white;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 110, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  font-size: 10;
+}
+
+.card-container {
+  display: flex;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+  justify-content: center;
+}
+
+.info-card {
+  text-align: left;
+  transition: box-shadow 0.4s;
+  font-size: 0.9rem;
+  padding: 0.5em;
+  display: block;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: lightgray;
+  max-width: 30%;
+}
+
+.info-card:hover {
+  box-shadow: 0 0 0.3em gray;
+}
+
+.card-title {
+  padding-bottom: 0.5em;
+}
+
+.project-button {
+  padding: 0.4em;
+  margin: 0.2em;
+  margin-top: 0.6em;
+  border-radius: 10px;
+}
+
+a:link {
+  color: gray;
+}
+
+a:visited {
+  color: rgb(180, 180, 180);
 }
