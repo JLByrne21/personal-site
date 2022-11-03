@@ -1,7 +1,8 @@
 # release.yaml
 name: Example Release
-on: push:
-      tags:
+on: 
+  push:
+    tags:
         - 'release/v*'
 jobs: build:
     runs-on: ubuntu-latest
