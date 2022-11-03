@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <script src="myScript.js"></script>
+    <script type="text/javascript" src="myScript.js" defer></script>
     <title>Jordan Byrne</title>
   </head>
   <body>
@@ -59,12 +59,9 @@
             also search for members using postcode, mp name or constituency
             name.
           </p>
-          <button
-            class="project-button"
-            onclick='window.location.href="https://rateyourmp.herokuapp.com";'
+          <a href="https://rateyourmp.herokuapp.com" target="_blank"
+            >Live Project</a
           >
-            Live Project
-          </button>
         </li>
       </ul>
       <h2>Education</h2>
@@ -79,6 +76,7 @@
           </p>
         </li>
       </ul>
+      <button id="my-btn">Testing JS</button>
     </div>
   </body>
 </html>

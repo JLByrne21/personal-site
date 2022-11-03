@@ -111,3 +111,16 @@ a:link {
 a:visited {
   color: rgb(180, 180, 180);
 }
+
+@keyframes spinThing {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#my-btn:hover {
+  animation: spinThing 1s linear infinite;
+}
